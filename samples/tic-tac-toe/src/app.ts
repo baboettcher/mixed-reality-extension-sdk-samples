@@ -83,7 +83,7 @@ export default class TicTacToe {
                     local: { position: { x: 0, y: 0.0, z: -1.5 } }
                 },
                 text: {
-                    contents: "Tic-Tac-Toe!",
+                    contents: "Blic - Blak - Black BLOW!!!",
                     anchor: TextAnchorLocation.MiddleCenter,
                     color: { r: 30 / 255, g: 206 / 255, b: 213 / 255 },
                     height: 0.3
@@ -297,7 +297,7 @@ export default class TicTacToe {
     private beginGameStateIntro() {
         console.log("BeginGameState Intro");
         this.gameState = GameState.Intro;
-        this.text.text.contents = "Tic-Tac-Toe\nClick To Play";
+        this.text.text.contents = "Tic Tac NOKOMIS!\nHaga click para jugar";
 
         this.currentPlayerGamePiece = GamePiece.X;
         this.nextPlayerGamePiece = GamePiece.O;
