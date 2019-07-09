@@ -83,7 +83,7 @@ export default class TicTacToe {
                     local: { position: { x: 0, y: 0.0, z: -1.5 } }
                 },
                 text: {
-                    contents: "Hi - A - watha!!!",
+                    contents: "Hi - A - watha MUTHA!!!",
                     anchor: TextAnchorLocation.MiddleCenter,
                     color: { r: 30 / 255, g: 206 / 255, b: 213 / 255 },
                     height: 0.3
